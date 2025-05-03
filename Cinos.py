@@ -43,7 +43,8 @@ class Order:
 
 if __name__ == "__main__":
     bases = ['water', 'pokecola', 'sbrite', 'Mr. salt', 'hill fog', 'leaf wine']
-    flavors = ['lemon', 'cherry', 'strawberry', 'mint', 'blueberry', 'lime'],
+    flavors = {'lemon': 0.15, 'cherry': 0.15, 'strawberry': 0.15, 'mint': 0.15, 'blueberry': 0.15, 'lime': 0.15},
+    sizes = {'small': 1.5, 'medium': 1.75, 'large': 2.05, 'mega': 2.15}
     prices = {'water': 1.0, 'pokecola': 2.5, 'sbrite': 2.0, 'Mr. salt': 1.5, 'hill fog': 3.0, 'leaf wine': 2.75,
               'lemon': 0.5, 'cherry': 0.75, 'strawberry': 0.6, 'mint': 0.4, 'blueberry': 0.8, 'lime': 0.5}
 
