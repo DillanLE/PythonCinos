@@ -62,6 +62,7 @@ if __name__ == "__main__":
     for base, flavor in product(bases, flavors):
         order.add_drink(base, flavor, prices[base] + prices[flavor])
 
+
     # Add foods with toppings and sizes
     for food, food_price in foods.items():
         for topping, topping_price in toppings.items():
