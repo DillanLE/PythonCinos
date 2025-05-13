@@ -25,7 +25,7 @@ class TestOrder(unittest.TestCase):
         self.assertIn("Total: $0.00", receipt)
         self.assertEqual(order.drinks, [])
 
-    def test_large_order(self):
+def test_large_order(self):
         order = Order()
         for i in range(100):
             

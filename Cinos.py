@@ -46,10 +46,13 @@ if __name__ == "__main__":
         'Hotdog': 2.30, 'Corndog': 2.00, 'Ice Cream': 3.00, 'Onion Rings': 1.75,
         'French Fries': 1.50, 'Tater Tots': 1.70, 'Nacho Chips': 1.90
     }
+    ice_storm = {'Mint Chocolate Chip': 4.00, 'Chocolate': 3.00, 'Vanilla Bean': 3.00, 'Banana': 3.50, 'Butter Pecan': 3.50, 'Smores': 4.00},
+    ice_storm_toppings = {'Cherry': 0.00, 'Whipped Cream': 0.00, 'Caramel Sauce': 0.50, 'Chocolate Sauce': 0.50, 'Storios': 1.00, 'Dig Dogs': 1.00, 'T&Ts': 1.00, 'Cookie Dough': 1.00, 'Pecans': 0.50},
     toppings = {
         'Cherry': 0.00, 'Whipped Cream': 0.00, 'Caramel Sauce': 0.50, 'Chocolate Sauce': 0.50,
         'Nacho Cheese': 0.30, 'Chili': 0.60, 'Bacon Bits': 0.30, 'Ketchup': 0.00, 'Mustard': 0.00
     }
+    
     flavors = {'lemon': 0.15, 'cherry': 0.15, 'strawberry': 0.15, 'mint': 0.15, 'blueberry': 0.15, 'lime': 0.15}
     sizes = {'small': 1.5, 'medium': 1.75, 'large': 2.05, 'mega': 2.15}
     prices = {'water': 1.0, 'pokecola': 2.5, 'sbrite': 2.0, 'Mr. salt': 1.5, 'hill fog': 3.0, 'leaf wine': 2.75,
