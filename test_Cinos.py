@@ -36,5 +36,5 @@ def test_large_order(self):
         self.assertIn("Total: $380.00", receipt)
 
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main() 
 
